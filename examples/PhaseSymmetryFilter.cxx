@@ -104,7 +104,7 @@ int main( int argc, char * argv[] )
   PARSE_ARGS;
 
   itk::ImageIOBase::Pointer imageIO = itk::ImageIOFactory::CreateImageIO(
-    inputImage.c_str(), itk::ImageIOFactory::ReadMode );
+    inputImage.c_str(), itk::ImageIOFactory::FileModeType::ReadMode );
   if( imageIO.IsNull() )
     {
     std::cerr << "Could create ImageIO for file: " << inputImage << std::endl;
