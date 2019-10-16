@@ -5,9 +5,8 @@ project( PhaseSymmetryImageFilter)
 find_package(ITK REQUIRED
   COMPONENTS
     PhaseSymmetry
-    ITKIOMeta
-    ITKIOTIFF
-    ITKIOPNG
+    ITKImageIO
+    ITKTransformIO
   )
 include(${ITK_USE_FILE})
 

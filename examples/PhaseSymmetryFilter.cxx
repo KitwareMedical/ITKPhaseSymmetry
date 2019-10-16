@@ -107,7 +107,7 @@ int main( int argc, char * argv[] )
     inputImage.c_str(), itk::ImageIOFactory::FileModeType::ReadMode );
   if( imageIO.IsNull() )
     {
-    std::cerr << "Could create ImageIO for file: " << inputImage << std::endl;
+    std::cerr << "Could not create ImageIO for file: " << inputImage << std::endl;
     return EXIT_FAILURE;
     }
   imageIO->SetFileName( inputImage );
