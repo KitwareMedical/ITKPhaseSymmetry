@@ -49,6 +49,6 @@ setup(
     keywords='ITK InsightToolkit Phase-symmetry Multi-scale Fourier-domain',
     url=r'https://github.com/KitwareMedical/ITKPhaseSymmetry',
     install_requires=[
-        r'itk>=5.1.1.post1'
+        r'itk>=5.2rc1'
     ]
     )
