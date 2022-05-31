@@ -25,7 +25,7 @@ setup(
                      'transform domain.\n'
                      'Please refer to:\n'
                      'C. Hatt, "Multi-scale Steerable Phase-Symmetry Filters for ITK.", '
-                     'Insight Journal, July-December 2011, http://hdl.handle.net/10380/3330.',
+                     'Insight Journal, July-December 2011, https://hdl.handle.net/10380/3330.',
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python",

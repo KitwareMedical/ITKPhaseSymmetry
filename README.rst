@@ -14,20 +14,20 @@ ITKPhaseSymmetry
 Overview
 --------
 
-This is a module for the `Insight Toolkit (ITK) <http://itk.org>`_ that
+This is a module for the `Insight Toolkit (ITK) <https://itk.org>`_ that
 provides multi-scale steerable filters for computing phase symmetry (PS).
 
 Multi-scale steerable phase-symmetry filters are applied in the image Fourier
 transform domain, and have been shown to be a useful pre-processing measure
 for performing image registration and segmentation.
 
-For more information, see the `Insight Journal article <http://hdl.handle.net/10380/3330>`_::
+For more information, see the `Insight Journal article <https://hdl.handle.net/10380/3330>`_::
 
   Hatt C.
   Multi-scale Steerable Phase-Symmetry Filters for ITK
   The Insight Journal. July-December. 2011.
-  http://hdl.handle.net/10380/3330
-  http://www.insight-journal.org/browse/publication/846
+  https://hdl.handle.net/10380/3330
+  https://www.insight-journal.org/browse/publication/846
 
 
 Installation
