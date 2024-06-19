@@ -4,7 +4,7 @@ build-backend = "scikit_build_core.build"
 
 [project]
 name = "itk-phasesymmetry"
-version = "1.0.5"
+version = "2.0.0"
 description = "itk-phasesymmetry provides multi-scale steerable filters "
 readme = "README.rst"
 license = {file = "LICENSE"}
